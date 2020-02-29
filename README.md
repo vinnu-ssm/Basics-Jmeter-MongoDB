@@ -1,20 +1,20 @@
-** Basics MongoDB Testing using Jmeter**
+**Basics MongoDB Testing using Jmeter**
 
 
-##COMPONENTS
+**COMPONENTS**
 
   - mongod - The database server.
   -  mongos - Sharding router.
   - mongo  - The database shell (uses interactive javascript).
   - Jmeter - To run test
 
-##PRE-REQUISITE 
+**PRE-REQUISITE** 
   - Download Jmeter http://mirrors.estointernet.in/apache//jmeter/binaries/apache-jmeter-5.2.1.zip
   - Put MongoDB Driver jar and groovy jar into jmeter lib/ext
 
 
   
-##STEP TO RUN TEST 
+**STEP TO RUN TEST**
   - Donwload mongoDB archive from https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2012plus-4.2.3.zip
   - Untar it and make database dir by command   mkdir -p ../data/db
   - Start MongoDB server by command  ./mongod --dbpath ../data/db/
