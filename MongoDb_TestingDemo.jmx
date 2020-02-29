@@ -124,11 +124,10 @@ catch (Exception e) {
           <stringProp name="parameters"></stringProp>
           <stringProp name="script">import com.mongodb.client.MongoCollection;
 import static com.mongodb.client.model.Filters.*;
-
 import org.bson.Document;
 import org.bson.types.ObjectId;
 
-try {
+try {	
 	MongoCollection&lt;Document&gt; collection = vars.getObject(&quot;collection&quot;);
 	
 	Document result = collection.find(eq(&quot;firstName&quot;, &quot;Expert&quot;)).first();
@@ -230,7 +229,7 @@ catch (Exception e) {
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">result</stringProp>
+          <stringProp name="filename"></stringProp>
           <boolProp name="ResultCollector.success_only_logging">true</boolProp>
         </ResultCollector>
         <hashTree/>
